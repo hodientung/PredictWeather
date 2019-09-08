@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.predictweather.weatherprediction.WeatherCurrent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mcmcmcmcmcmcmc"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="@dimen/rong"
+            android:layout_height="@dimen/cao"
+            android:text="@string/diachi"
+            android:textColor="@color/blue"
+            android:textSize="@dimen/spchu" />
+
+        <TextView
+            android:id="@+id/tv1"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/bs"
+            android:hint="@string/a_ch_hi_n_t_i"
+            android:textColorHint="@color/gray"
+            android:textSize="@dimen/sfv" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="@dimen/ad3"
+            android:layout_height="@dimen/gs4"
+            android:text="@string/nhi_t"
+            android:textColor="@color/blue"
+            android:textSize="@dimen/y35" />
+
+        <TextView
+            android:id="@+id/tv2"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/bs22"
+            android:hint="@string/nhi_t_y"
+            android:textColorHint="@color/gray"
+            android:textSize="@dimen/y35" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="100dp"
+            android:paddingTop="20dp"
+            android:layout_height="50dp"
+            android:text="@string/b_u_tr_i"
+            android:textColor="@color/blue"
+            android:textSize="@dimen/y35" />
+        <ImageView
+            android:id="@+id/tv3"
+            android:layout_gravity="center"
+            android:layout_width="@dimen/s76"
+            android:layout_height="@dimen/hgdh767"
+         />
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/m_t"
+        android:textStyle="bold"
+        android:fontFamily="serif-monospace"
+        android:textColor="@color/blue"
+        android:textSize="30sp"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="@dimen/ds44"
+                    android:layout_height="50dp"
+                    android:text="@string/max_temp"
+                    android:textColor="@color/blue"
+                    android:textSize="@dimen/y35" />
+
+                <TextView
+                    android:id="@+id/tv4"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/ngn55"
+                    android:hint="@string/nhi_t_l_n_nh_t"
+                    android:textColorHint="@color/gray"
+                    android:textSize="@dimen/y35"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="@dimen/fad34"
+                    android:layout_height="@dimen/gfgd"
+                    android:text="@string/min_temp"
+                    android:textColor="@color/blue"
+                    android:textSize="@dimen/y35" />
+
+                <TextView
+                    android:id="@+id/tv5"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/da222"
+                    android:hint="@string/nhi_t_nh_nh_t"
+                    android:textColorHint="@color/gray"
+                    android:textSize="@dimen/y35" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="@dimen/dvdvdvd"
+                    android:layout_height="@dimen/dsfgssg"
+                    android:text="@string/wind"
+                    android:textColor="@color/blue"
+                    android:textSize="@dimen/y35" />
+
+                <TextView
+                    android:id="@+id/tv6"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/hkh98"
+                    android:hint="@string/t_c_gi"
+                    android:textColorHint="@color/gray"
+                    android:textSize="@dimen/y35" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="@dimen/fda343"
+                    android:layout_height="@dimen/gf56"
+                    android:text="@string/cloudiness"
+                    android:textColor="@color/blue"
+                    android:textSize="@dimen/y35" />
+
+                <TextView
+                    android:id="@+id/tv7"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/gg56"
+                    android:hint="@string/t_nh_tr_ng_m_y"
+                    android:textColorHint="@color/gray"
+                    android:textSize="@dimen/y35" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="@dimen/dsa34"
+                    android:layout_height="@dimen/hg67"
+                    android:text="@string/pressure"
+                    android:textColor="@color/blue"
+                    android:textSize="@dimen/y35" />
+
+                <TextView
+                    android:id="@+id/tv8"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/ghg767"
+                    android:hint="@string/p_su_t_y"
+                    android:textColorHint="@color/gray"
+                    android:textSize="@dimen/y35"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="@dimen/gf67676"
+                    android:layout_height="@dimen/hg6645"
+                    android:text="@string/humidity"
+                    android:textColor="@color/blue"
+                    android:textSize="@dimen/y35" />
+
+                <TextView
+                    android:id="@+id/tv9"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/gfg556"
+                    android:hint="@string/m_y"
+                    android:textColorHint="@color/gray"
+                    android:textSize="@dimen/y35" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="@dimen/gfg5654"
+                    android:layout_height="match_parent"
+                    android:text="@string/sunrise"
+                    android:textColor="@color/blue"
+                    android:textSize="@dimen/y35" />
+
+                <TextView
+                    android:id="@+id/tv10"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dfh756"
+                    android:hint="@string/m_t_tr_i_m_c"
+                    android:textColorHint="@color/gray"
+                    android:textSize="@dimen/y35" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="@dimen/hfu67"
+                    android:layout_height="@dimen/hgh333"
+                    android:text="@string/sunset"
+                    android:textColor="@color/blue"
+                    android:textSize="@dimen/y35" />
+
+                <TextView
+                    android:id="@+id/tv11"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dbngmm"
+                    android:hint="@string/m_t_tr_i_l_n"
+                    android:textColorHint="@color/gray"
+                    android:textSize="@dimen/y35" />
+            </LinearLayout>
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

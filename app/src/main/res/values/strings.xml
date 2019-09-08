@@ -1,0 +1,138 @@
+<resources>
+
+    <string name="app_name">PredictWeather</string>
+    <string name="map_api_key">AIzaSyCwbp5O1gSQu5rDBBFpJjfLlp9DU6yk0IE</string>
+
+    <string name="title_activity_maps">Map</string>
+    <string name="diachi">địa chỉ:</string>
+    <string name="a_ch_hi_n_t_i">địa chỉ hiện tại</string>
+    <string name="nhi_t">nhiệt độ:</string>
+    <string name="nhi_t_y">nhiệt độ ở đây</string>
+    <string name="b_u_tr_i">bầu trời:</string>
+    <string name="m_t">mô tả</string>
+    <string name="max_temp">max temp:</string>
+    <string name="nhi_t_l_n_nh_t">nhiệt độ lớn nhất</string>
+    <string name="min_temp">min temp:</string>
+    <string name="nhi_t_nh_nh_t">nhiệt độ nhỏ nhất</string>
+    <string name="wind">wind:</string>
+    <string name="t_c_gi">tốc độ gió</string>
+    <string name="cloudiness">cloudiness:</string>
+    <string name="t_nh_tr_ng_m_y">tình trạng mây</string>
+    <string name="pressure">pressure:</string>
+    <string name="p_su_t_y">áp suất ở đây</string>
+    <string name="humidity">humidity:</string>
+    <string name="m_y">độ ẩm ở đây</string>
+    <string name="sunrise">sunrise:</string>
+    <string name="m_t_tr_i_m_c">mặt trời mọc</string>
+    <string name="sunset">sunset:</string>
+    <string name="m_t_tr_i_l_n">mặt trời lặn</string>
+    <string name="th_i_ti_t_hi_n_t_i_c_a_thi_t_b">Thời tiết hiện tại của thiết bị</string>
+    <string name="th_i_ti_t_theo_a_i_m_b_t_k">Thời tiết theo địa điểm bất kì</string>
+    <string name="th_i_ti_t_theo_a_i_m_hi_n_t_i_v_d_b_o_c_c_ng_y_k_ti_p">Thời tiết theo địa điểm hiện tại và dự báo các ngày kế tiếp</string>
+    <string name="th_i_ti_t_tr_n_google_map">Thời tiết trên google map</string>
+    <string name="nh_p_a_ch">nhập địa chỉ:</string>
+    <string name="hello_blank_fragment">Today Weather Demo</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="title_activity_chuc_nang_3">Settings</string>
+    <string name="messages_header">Messages</string>
+
+    <!-- Preference Titles -->
+    <string name="sync_header">Sync</string>
+    <string name="signature_title">Your signature</string>
+
+    <!-- Messages Preferences -->
+    <string name="reply_title">Default reply action</string>
+    <string name="sync_title">Sync email periodically</string>
+
+    <!-- Sync Preferences -->
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <string name="_5_days_weather_forecast">5 days weather forecast</string>
+    <string name="uggk">weather in Viet Nam</string>
+    <string name="ouio">[99.99]</string>
+    <string name="weather_in_viet_nam">Weather in Viet Nam</string>
+    <string name="lgl">37 C</string>
+    <string name="weather_int_viet_nam">weather int VIet Nam</string>
+    <string name="sktd">wind</string>
+    <string name="dh">pressure</string>
+    <string name="_9999_99hpa">9999.99hpa</string>
+    <string name="md">humidity</string>
+    <string name="lw">100%</string>
+    <string name="vj">sunrise</string>
+    <string name="sfg">sunset</string>
+    <string name="_12_00">12:00</string>
+    <string name="geo_coords">geo coords</string>
+    <string name="_32_0_45_88">[32.0,-45.88]</string>
+    <string name="_37_c">37 C</string>
+    <string name="tuesday">tuesday</string>
+    <string name="xem_th_i_ti_t">xem thời tiết</string>
+    <string name="g_i_a_i_m">gợi ý địa điểm:</string>
+    <string-array name="list">
+        <item>An Giang</item>
+        <item>Vũng Tàu</item>
+        <item>Bắc Giang</item>
+        <item>Bắc Kạn</item>
+        <item>Bạc Liêu</item>
+        <item>Bắc Ninh</item>
+        <item>Bến Tre</item>
+        <item>Bình Định</item>
+        <item>Bình Dương</item>
+        <item>Bình Phước</item>
+        <item>Bình Thuận</item>
+        <item>Cà Mau</item>
+        <item>Cao Bằng</item>
+        <item>Đắk Lắk</item>
+        <item>Đắk Nông</item>
+        <item>Điện Biên</item>
+        <item>Đồng Nai</item>
+        <item>Đồng Tháp</item>
+        <item>Gia Lai</item>
+        <item>Hà Giang</item>
+        <item>Hà Nam</item>
+        <item>Hà Tĩnh</item>
+        <item>Hải Dương</item>
+        <item>Hậu Giang</item>
+        <item>Hòa Bình</item>
+        <item>Hưng Yên</item>
+        <item>Khánh Hòa</item>
+        <item>Kiên Giang</item>
+        <item>Kon Tum</item>
+        <item>Lai Châu</item>
+        <item>Lâm Đồng</item>
+        <item>Lạng Sơn</item>
+        <item>Lào Cai</item>
+        <item>Long An</item>
+        <item>Nam Định</item>
+        <item>Nghệ An</item>
+        <item>Ninh Bình</item>
+        <item>Ninh Thuận</item>
+        <item>Phú Thọ</item>
+        <item>Quảng Bình</item>
+        <item>Quảng Nam</item>
+        <item>Quảng Ngãi</item>
+        <item>Quảng Ninh</item>
+        <item>Quảng Trị</item>
+        <item>Sóc Trăng</item>
+        <item>Sơn La</item>
+        <item>Tây Ninh</item>
+        <item>Thái Bình</item>
+        <item>Thái Nguyên</item>
+        <item>Thanh Hóa</item>
+        <item>Thừa Thiên Huế</item>
+        <item>Tiền Giang</item>
+        <item>Trà Vinh</item>
+        <item>Tuyên Quang</item>
+        <item>Vĩnh Long</item>
+        <item>Vĩnh Phúc</item>
+        <item>Yên Bái</item>
+        <item>Phú Yên</item>
+        <item>Cần Thơ</item>
+        <item>Đà Nẵng</item>
+        <item>Hải Phòng</item>
+        <item>Hà Nội</item>
+        <item>Hồ Chí Minh</item>
+    </string-array>
+</resources>
